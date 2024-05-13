@@ -2,25 +2,20 @@
   
   ### Seguem dados de acesso para Gerenciamento do seu Ambiente ${env.displayName}
   
-  ##### Dados de acesso do LiteSpeed Web Admin:
-  
-  **Host:** [${globals.adminUrl}](${globals.adminUrl})
-  **Usu&aacute;rio:** admin
-  **Senha:** ${globals.LS_ADMIN_PASS}
-  
-  ---
-  
   ##### Dados de acesso do phpMyAdmin:
   
-  **Host:** [${nodes.db.adminUrl}](${nodes.db.adminUrl})
+  **Host:** [${nodes.db[0].adminUrl}](${nodes.db[0].adminUrl})
+
   **Usu&aacute;rio:** espocrm
+
   **Senha:** ${globals.PASSWD}
   
   ---
   
   ##### Informações para configurar o EspoCRM:
   
-  **Host do Banco de Dados:** ${nodes.db.intIP}
+  **Host do Banco de Dados:** ${nodes.db[0].intIP}
+
   **Nome do Banco de Dados:** espocrm
   
   ---
