@@ -2,9 +2,10 @@
   
   ### Seguem dados de acesso para Gerenciamento do seu Ambiente ${env.displayName}
   
+
   ##### Dados de acesso do phpMyAdmin:
   
-  **Host:** [${nodes.db[0].adminUrl}](${nodes.db[0].adminUrl})
+  **Host:** [${nodes.mariadb113.adminUrl}](${nodes.mariadb113.adminUrl})
 
   **Usu&aacute;rio:** espocrm
 
@@ -14,7 +15,7 @@
   
   ##### Informações para configurar o EspoCRM:
   
-  **Host do Banco de Dados:** ${nodes.db[0].intIP}
+  **Host do Banco de Dados:** ${nodes.mariadb113.intIP}
 
   **Nome do Banco de Dados:** espocrm
   
