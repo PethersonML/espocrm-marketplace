@@ -2,16 +2,6 @@
   
   ### Below are access details for Managing your Environment ${env.displayName}
   
-
-  ##### phpMyAdmin access data:
-  
-  **Host:** [${nodes.mariadb113.adminUrl}](${nodes.mariadb113.adminUrl})
-
-  **User:** espocrm
-
-  **Password:** ${globals.PASSWD}
-  
-  ---
   
   ##### Information to set up EspoCRM:
   
@@ -34,5 +24,15 @@
   5- From here, the EspoCRM Admin user will be created and will need to define some personalized options such as Timezone, Date format, Currency, Email Server, etc. Just make all the adjustments according to your needs and you will reach the installation completion screen.
   
   6- At this point, a configuration will appear that must be done in the Linux CRON Scheduler service where EspoCRM was installed. If you need help with this, please contact our [24/7 Support](https://api.whatsapp.com/message/2HGCCPU36CDMA1?autoload=1&app_absent=0)
+
+  ---
+
+  ##### phpMyAdmin access data:
+  
+  **Host:** [${nodes.mariadb113.adminUrl}](${nodes.mariadb113.adminUrl})
+
+  **User:** espocrm
+
+  **Password:** ${globals.PASSWD}
 
 &nbsp;

@@ -3,16 +3,6 @@
   ### A continuación se muestran los detalles de acceso para Gestionar su entorno ${env.displayName}
   
 
-  ##### Datos de acceso de phpMyAdmin:
-  
-  **Host:** [${nodes.mariadb113.adminUrl}](${nodes.mariadb113.adminUrl})
-
-  **Usuario:** espocrm
-
-  **Contraseña:** ${globals.PASSWD}
-  
-  ---
-  
   ##### Informações para configurar o EspoCRM:
   
   **Host de base de datos:** ${nodes.mariadb113.intIP}
@@ -35,4 +25,14 @@
   
   6- En este punto, aparecerá una configuración que se debe realizar en el servicio Programador CRON de Linux donde se instaló EspoCRM. Si necesita ayuda con esto, comuníquese con nuestro [Soporte 24/7](https://api.whatsapp.com/message/2HGCCPU36CDMA1?autoload=1&app_absent=0)
 
+  ---
+
+  ##### Datos de acceso de phpMyAdmin:
+  
+  **Host:** [${nodes.mariadb113.adminUrl}](${nodes.mariadb113.adminUrl})
+
+  **Usuario:** espocrm
+
+  **Contraseña:** ${globals.PASSWD}
+  
 &nbsp;
